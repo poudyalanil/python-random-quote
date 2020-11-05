@@ -1,9 +1,7 @@
 import random
 
 
-def main():
-
-    print("Keep it logically awesome.")
+def get_quote():
     f = open('quotes.txt')
     quotes = f.readlines()
     f.close()
@@ -12,4 +10,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    get_quote()
